@@ -24,7 +24,7 @@ ssh-keygen -t rsa -C [filename]
 # server: start -> settings -> applications -> check functions -> ssh server
   # find openssl xxxxx in service
 
-ssh-add [file path]
+ssh-add [private key file path]
 ```
 
 
