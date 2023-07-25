@@ -15,13 +15,14 @@ git config --global user.email [ur email]""
 ```
 
 # -t encryption
-ssh-keygen -t rsa -C "ur email" [filename]
+// ssh-keygen -t rsa -C "ur email" [filename]
+ssh-keygen -t rsa -C [filename]
+
 
 # start ssh-agent
 # win
+# server: start -> settings -> applications -> check functions -> ssh server
   # find openssl xxxxx in service
-# linux
-  #
 
 ssh-add [file path]
 ```
